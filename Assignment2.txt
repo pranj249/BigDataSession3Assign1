@@ -1,0 +1,12 @@
+1  namenode,datanode
+2  DFSOutputStream
+3  close()
+4  Hadoop-env.sh
+5 JobTracker
+6  In this configuration, the Secondary NameNode is standby NameNode, ready to failover and
+provide high availability
+7 core-site.xml
+8 resource manager
+9  task manager
+10  HDFS Federation improves the resiliency of HDFS in the face of network issues by
+removing the NameNode as a single-point-of-failure.   
